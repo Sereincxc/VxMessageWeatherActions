@@ -19,9 +19,9 @@ import java.util.List;
  *               -- 2022/10/5
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wx921e7a39f59b20cd";
+    public static final String VxAppSecret = "a25afb3f4ac2131f88ded2b1463bd9e6";
+    public static final String WeatherKey = "d0643e74ab829211dcb0be4cd3e367d8";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -69,28 +69,16 @@ public class AllConfig {
         //  注意：日期里面的数字，填正常的数字就行了.比如1就是1，不要填01
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
+                "d0643e74ab829211dcb0be4cd3e367d8", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "xZw6K7FDmNXFB_pDkxEhCNboZ189QjnB6ZQtB7DIKeE", //要给这个人发送的模板ID
+                "cxc", //咋称呼这个人
+                "浙江省杭州市临安区", //这个人的详细地址
+                "临安", //这个人在的城市
+                new BirthDay(2002,3,11,true,false), //分别代表年、月、日、是否是农历(true为农历、false为公历)、是否统计天数(true为统计，false为倒计时)
+                
         ));
 
-        userList.add(getUser(
-                "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID",//要给这个人发送的模板ID
-                "这个人的称呼",//咋称呼这个人
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
-                new BirthDay(1999,8,11,false,false),
-                new BirthDay(1999,2,15,true,false),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false)
-        ));
+       
 
 
 
